@@ -12,7 +12,7 @@ import javax.persistence.Table;
 import com.sun.istack.NotNull;
 
 @Entity
-@Table(name = "accounts", catalog = "dollarbankV2")
+@Table(name = "accounts", catalog = "dollarsbank")
 public class Account {
 
 	@Id
