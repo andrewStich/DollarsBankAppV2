@@ -1,20 +1,12 @@
 
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Login from './login';
-import Signup from './signup';
-import {BrowserRouter, Route, Switch} from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Main from './main.js';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
-  <BrowserRouter>
-    <Switch>
-     <Route path="/" exact component={Login}/>
-     <Route path="/login" component={Login}/>
-     <Route path="/signup" component={Signup} />
-    </Switch>
-  </BrowserRouter>,
+  <Main/>,
   document.getElementById('root')
 );
 
